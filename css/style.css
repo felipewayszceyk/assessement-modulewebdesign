@@ -46,6 +46,7 @@ nav a:hover {
 .hero {
   padding: 0.5rem 0.5rem;
   color: white;
+  text-align: justify;
   background-image: url('/images/Howth.jpg');
   background-size: cover;
   background-position: center;
@@ -83,10 +84,3 @@ footer {
     background-color: #ef8146;
 }
 
-.img-blog {
-    width: 100%;
-    max-width: 180px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    }
