@@ -46,17 +46,17 @@ nav a:hover {
 .hero {
   padding: 0.5rem 0.5rem;
   color: white;
-  background-image: url('/images/Howth.jpg');
+  background-image: url('images/Howth.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   }
 .about .hero {
-  background-image: url('/images/banner-tips.png');
+  background-image: url('images/banner-tips.png');
 }
 
 .tips .hero {
-  background-image: url('/images/banner-tips.png');
+  background-image: url('images/banner-tips.png');
 }
 
 .content {
