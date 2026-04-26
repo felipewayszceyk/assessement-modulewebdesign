@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felipe Wayszceyk - home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  </head>
+  <body class="contact">
+    <header>
+        <div class="container-fluid d-flex align-items-center gap-3">
+            <div class="col-1">
+           <a href="index.html" target="_blank">
+            <img src="images/logo-felipe-abroad.png" class="img-fluid" alt="logo-image "/>
+            </a>
+            </div>
+           <h1 class="mb-0">FELIPE ABROAD</h1>
+        </div>
+           <nav class="navbar navbar-expand-sm navbar-dark custom-navbar rounded py-1 ">
+        <div class="container-fluid">
+            <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>               
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav ms-auto">
+                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                     <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+                     <li class="nav-item"><a href="info.html" class="nav-link">Why Ireland</a></li>
+                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                     </ul>
+
+
+                </div>
+
+        </div>
+    </header>
+
+      <main class="container">
+      <form
+        method="post"
+        action="#"
+        class="p-4 border rounded bg-white mx-auto my-3"
+        style="max-width: 400px"
+      >
+        <fieldset>
+          <legend class="mb-3">Contact Information</legend>
+
+          <!-- Full Name -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+              minlength="2"
+              maxlength="50"
+              aria-describedby="nameHelp"
+            />
+            <small id="nameHelp" class="form-text text-muted">
+              Please enter your full name.
+            </small>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+              aria-describedby="emailHelp"
+            />
+            <small id="emailHelp" class="form-text text-muted">
+              Please enter your full email address.
+            </small>
+          </div>
+
+          <!-- Subject -->
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              class="form-control"
+              required
+              pattern="[A-Za-z ]+"
+              title="Letters only"
+              aria-describedby="subjectHelp"
+            />
+            <small id="subjectHelp" class="form-text text-muted">
+              Letters and spaces only.
+            </small>
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              class="form-control"
+              required
+              minlength="10"
+              maxlength="500"
+              aria-describedby="messageHelp"
+            ></textarea>
+            <small id="messageHelp" class="form-text text-muted">
+              Minimum 10 characters.
+            </small>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2026 Felipe Wayszceyk</p>
+      <p class="mb-0">
+    Contact: 
+    <a href="mailto:felipewayszceyk@email.com" class="text-white text-decoration-none">
+      felipewayszceyk@email.com
+    </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

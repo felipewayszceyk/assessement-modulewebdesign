@@ -1,0 +1,92 @@
+* 
+
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ef8146;
+  background: rgba(40, 48, 96, 0.7);
+}
+
+header,
+footer {
+  padding: 1rem;
+  background-color:rgba(3, 19, 109, 0.8);
+  color: #ef8146;
+}
+
+main {
+  color: #ef8146;
+}
+
+nav {
+  margin-top: 0.5rem;
+  color: #ef8146;
+
+}
+
+nav a {
+  color: #e19f7b;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+nav a:hover {
+ 
+  text-decoration: underline;
+  color: #d28053;
+}
+
+.hero {
+  padding: 0.5rem 0.5rem;
+  color: white;
+  background-image: url('/images/Howth.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+.about .hero {
+  background-image: url('/images/banner-tips.png');
+}
+
+.tips .hero {
+  background-image: url('/images/banner-tips.png');
+}
+
+.content {
+  text-align: justify;
+  margin-top:0.01rem;
+  margin-bottom: 0.01rem;
+  background: rgb(48, 66, 121, 0.5);
+  color: white;
+  text-align: left;
+}
+
+.side {
+text-align: justify;  
+margin-top: 2rem;
+background: #d28053;
+color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+.custom-navbar {
+    background-color: #ef8146;
+}
+
+.img-blog {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
