@@ -46,7 +46,6 @@ nav a:hover {
 .hero {
   padding: 0.5rem 0.5rem;
   color: white;
-  text-align: justify;
   background-image: url('/images/Howth.jpg');
   background-size: cover;
   background-position: center;
@@ -61,7 +60,6 @@ nav a:hover {
 }
 
 .content {
-  text-align: justify;
   margin-top:0.01rem;
   margin-bottom: 0.01rem;
   background: rgb(48, 66, 121, 0.5);
@@ -70,7 +68,7 @@ nav a:hover {
 }
 
 .side {
-text-align: justify;  
+text-align: center;  
 margin-top: 2rem;
 background: #d28053;
 color: white;
